@@ -1,0 +1,32 @@
+doctype html
+html(lang="ja")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Document
+    link(rel="stylesheet", href="./assets/css/app.css")
+    script(src="./assets/js/main.bundle.js" defer)
+  body
+    h1 HTMLの基本
+    ul
+      li リスト1
+      li リスト2
+      li リスト3
+
+    p 海賊王に#[em 俺は]なる！
+    p 海賊王に
+      em 俺は
+      | なる！
+
+    p 〒100-0000
+      br
+      | 東京都板橋区0-1-2-3
+
+    p: a(href="../") トップページへ
+    p: a(href="https://shibajuku.net" target="_blank") Shibajukuへ
+    label
+      input(type="checkbox" checked)
+      | 同意する
+
+    .test
+      img(src="assets/img/jpeg.webp", alt="")
